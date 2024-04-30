@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    --marime-colt: 3vh;
+    --transparent: transparent;
+}
+
+body{
+    font-size: 2vh;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.tlogo{
+    font-size: 3.2vh;
+    width: 12vw;
+    letter-spacing: 0vh;
+    position: absolute;
+    top: 5%;
+    left: 96%;
+    transform: translate(-50%, -50%);
+}
+
+/* .babacioacapematurazburand{
+    width: 2vw;
+    background: none;
+    position: absolute;
+    top: 6.5%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+}
+
+.veata{
+    background-color: rgba(255, 255, 255, 0.438);
+    width: 7vw;
+    height: 0.7vh;
+    border-radius: 0.5vh;
+    position: absolute;
+    top: 5.4%;
+    left: 83%;
+    transform: translate(-50%,-50%);
+}
+
+.vveata{
+    width: 89%;
+    border-radius: 0.5vh;
+    height: 0.7vh;
+    background: red;
+    transition: 200ms;
+    box-shadow: 0 0 2vh red;
+}
+
+.armura{
+    background-color: rgba(255, 255, 255, 0.438);
+    width: 7vw;
+    height: 0.7vh;
+    border-radius: 0.5vh;
+    position: absolute;
+    top: 7.4%;
+    left: 83%;
+    transform: translate(-50%,-50%);
+}
+
+.aarmura{
+    width: 75%;
+    border-radius: 0.5vh;
+    height: 0.7vh;
+    background: rgb(0, 132, 255);
+    transition: 200ms;
+    box-shadow: 0 0 2vh rgb(0, 132, 255);
+} */
+
+.imglogo{
+    width: 2.5vw;
+    background: none;
+    position: absolute;
+    top: 5%;
+    left: 88.5%;
+    transform: translate(-50%, -50%);
+}
+
+.jhonnylogo{
+    position: absolute;
+    top: 8.5%;
+    left: 90.7%;
+    transform: translate(-50%, -50%);
+    height: 0.7vh;
+    width: 7vw;
+    border-radius: 0.2vh;
+    background: linear-gradient(to left, var(--transparent), rgb(255, 203, 34));
+}
+
+#tickets{
+    width: 5vw;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.4vh;
+    letter-spacing: 0.1vh;
+    position: absolute;
+    top: 8%;
+    left: 96%;
+    transform: translate(-50%, -50%);
+    background: none;
+}
+
+.bani{
+    position: absolute;
+    top: 12%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+    width: 12vw;
+    height: 4vh;
+    background: linear-gradient(to right, var(--transparent) 6%, rgba(128, 128, 128, 0.705));
+    clip-path: polygon(10% 0%, 100% 0%, 92% 100%, 0% 100%);
+}
+
+#tbani{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    color: green;
+}
+
+.img1{
+    width: 1vw;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to left, var(--transparent) 6%, green);
+    padding: 1vh;
+}
+
+.jhonny1{
+    position: absolute;
+    top: 49%;
+    left: 89.5%;
+    transform: translate(-50%, -50%);
+    background: green;
+    height: 3.5vh;
+    width: 0.2vw;
+    rotate: 26deg;
+    border-radius: 1vh;
+}
+
+.bank{
+    position: absolute;
+    top: 17%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+    width: 12vw;
+    height: 4vh;
+    background: linear-gradient(to right, var(--transparent) 6%, rgba(128, 128, 128, 0.705));
+    clip-path: polygon(10% 0%, 100% 0%, 92% 100%, 0% 100%);
+}
+
+#tbank{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    color: rgb(0, 140, 255);
+}
+
+.img2{
+    width: 1vw;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to left, var(--transparent) 6%, rgb(0, 140, 255));
+    padding: 1vh;
+}
+
+
+.jhonny2{
+    position: absolute;
+    top: 49%;
+    left: 89.5%;
+    transform: translate(-50%, -50%);
+    background: rgb(0, 140, 255);
+    height: 3.5vh;
+    width: 0.2vw;
+    rotate: 26deg;
+    border-radius: 1vh;
+}
+
+.coins{
+    position: absolute;
+    top: 22%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+    width: 12vw;
+    height: 4vh;
+    background: linear-gradient(to right, var(--transparent) 6%, rgba(128, 128, 128, 0.705));
+    clip-path: polygon(10% 0%, 100% 0%, 92% 100%, 0% 100%);
+}
+
+#tcoins{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    color: rgb(183, 0, 255);
+}
+
+.img3{
+    width: 1vw;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to left, var(--transparent) 6%, rgb(183, 0, 255));
+    padding: 1vh;
+}
+
+.jhonny3{
+    position: absolute;
+    top: 49%;
+    left: 89.5%;
+    transform: translate(-50%, -50%);
+    background: rgb(183, 0, 255);
+    height: 3.5vh;
+    width: 0.2vw;
+    rotate: 26deg;
+    border-radius: 1vh;
+}

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.8vh;
+    color: #afafaf;
+    font-family: 'Open Sans', sans-serif;
+    --kastanaverde: 1.5vh;
+}
+
+.main_container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 2vh;
+    left: 92%;
+    transform: translate(-50%,-1vh);
+    width: 14vw;
+    height: 8vh;
+    border-radius: 1vh;
+    background-image: linear-gradient(to left, rgba(158, 0, 0, 0.548),rgba(0, 0, 0, 0) 90%);
+    clip-path: polygon(var(--kastanaverde) 0%,100% 0,100% calc(100% - var(--kastanaverde)),calc(100% - var(--kastanaverde)) 100%,0 100%,0% var(--kastanaverde));
+    font-family: 'Bebas Neue', cursive;
+}
+
+.turatii{
+    background-color: rgba(0, 0, 0, 0.438);
+    width: 9vw;
+    height: 1.5vh;
+    overflow: hidden;
+    border-radius: 0.5vh;
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+}
+
+.progresturatii{
+    width: 25%;
+    height: 1.5vh;
+    background: red;
+    transition: 200ms;
+}
+
+.kmh_container {
+    display: flex;
+    border: 0.2vh solid rgb(168, 0, 0);
+    position: absolute;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--alb);
+    background-color: #00000073;
+    width: 3.5vw;
+    height: 4vh;
+    border-radius: 1vh;
+    top: 65%;
+    left: 18%;
+    transform: translate(-50%,-50%);
+}
+
+.img{
+    position: absolute;
+    top: -33%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1.5vw;
+}
+
+.icon_container {
+    display: flex;
+    border: 0.17vh solid rgb(168, 0, 0);
+    justify-content: space-evenly;
+    align-items: center;
+    width: 6vh;
+    height: 3vh;
+    background-color: #00000073;
+    border-radius: 0.7vh;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.fuel_container {
+    display: flex;
+    border: 0.17vh solid rgb(168, 0, 0);
+    justify-content: space-evenly;
+    align-items: center;
+    width: 7vh;
+    height: 3vh;
+    background-color: #00000073;
+    border-radius: 0.7vh;
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+
+#benzina{
+    width: 1vw;
+    height: 1.8vh;
+}
+
+#motoras{
+    width: 1.3vw;
+    height: 2.3vh;
+}
+
+#lacat{
+    width: 1vw;
+    height: 2vh;
+}
+
+.kmh_speed {
+    font-size: 2.8vh;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+
+#kmh{
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.6vh;
+    color: rgba(255, 255, 255, 0.589);
+}
+
+#vehicleSpeed{
+    text-shadow: 0 0 0vh rgb(255, 0, 0), 0 0 1vh #ff0000, 0 0 1.5vh #ff0000;
+}
+
+#vehicleFuel{
+    font-size: 2vh;
+}
